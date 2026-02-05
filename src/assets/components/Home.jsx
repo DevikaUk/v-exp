@@ -7,7 +7,7 @@ const Home = () => {
       
       <div className="flex items-end order-2 md:order-1">
         <img
-          src="/home.png"
+          src={`${import.meta.env.BASE_URL}home.png`}
           alt="vector image of vehicle"
           className="w-full"
         />

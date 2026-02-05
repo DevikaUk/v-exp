@@ -23,7 +23,7 @@ function App() {
     <BrowserRouter>
     <Navbar/>
       <Routes>
-       
+        <Route path="/" element={<Navigate to="/home" replace />} />
         <Route path="/" element={<Home />} />
         <Route path="/discover" element={<Discover />} />
         <Route path="/water" element={<Water />} />
